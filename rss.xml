@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的博客</title><description>记录技术与生活</description><link>https://55kevin.github.io/</link><language>zh_CN</language><item><title>Markdown Extended Features</title><link>https://55kevin.github.io/posts/markdown-extended/</link><guid isPermaLink="true">https://55kevin.github.io/posts/markdown-extended/</guid><description>Read more about Markdown features in Fuwari</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub Repository Cards&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的博客</title><description>记录技术与生活</description><link>https://55kevin.github.io/</link><language>zh_CN</language><item><title>我的第一篇博客</title><link>https://55kevin.github.io/posts/first-post/</link><guid isPermaLink="true">https://55kevin.github.io/posts/first-post/</guid><description>用 Fuwari 搭建个人博客，成功部署到 GitHub Pages</description><pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;我的第一篇博客&lt;/h1&gt;
+&lt;p&gt;终于把 Fuwari 博客部署上线啦！&lt;/p&gt;
+&lt;h2&gt;部署踩坑记录&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;GitHub Actions 排队太久&lt;/li&gt;
+&lt;li&gt;样式丢失，是因为缺少 &lt;code&gt;.nojekyll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;git subtree 推送冲突，加 --force 解决&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Markdown 示例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加粗文字&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;斜体文字&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用块，用来放提示文字&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;// 代码块
+const hello = &quot;Hello Fuwari&quot;&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>Markdown Extended Features</title><link>https://55kevin.github.io/posts/markdown-extended/</link><guid isPermaLink="true">https://55kevin.github.io/posts/markdown-extended/</guid><description>Read more about Markdown features in Fuwari</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub Repository Cards&lt;/h2&gt;
 &lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;Fabrizz/MMM-OnSpotify&quot;}&lt;/p&gt;
 &lt;p&gt;Create a GitHub repository card with the code &lt;code&gt;::github{repo=&quot;&amp;lt;owner&amp;gt;/&amp;lt;repo&amp;gt;&quot;}&lt;/code&gt;.&lt;/p&gt;
