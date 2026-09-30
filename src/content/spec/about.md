@@ -1,9 +1,14 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于准爸爸
 
-::github{repo="saicaca/fuwari"}
+我是一名准爸爸。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+从知道要当爸爸的那天起，生活就悄悄变了样：学着看验孕棒、研究孕周计算、陪老婆去做每一次产检、第一次听见 B 超里的小心跳……这些原本陌生的事情，慢慢填满了我们的日常。
+
+这个博客用来记录老婆孕期的点点滴滴：
+
+- 每一次产检、B 超的结果和心情
+- 老婆身体和胃口的变化
+- 我们为宝宝准备的小物件
+- 一个新手准爸爸的手忙脚乱与兵荒马乱
+
+希望等宝宝出生以后，可以回过头来看看这一路是怎么走过来的。
