@@ -7,7 +7,7 @@
     "start": "astro dev",
     "check": "astro check",
     "build": "astro build && pagefind --site dist",
-    "deploy": "astro build && touch dist/.nojekyll && gh-pages -d dist -b gh-pages",
+    "deploy": "astro build && pagefind --site dist&& touch dist/.nojekyll && gh-pages -d dist -b gh-pages",
     "preview": "astro preview",
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
